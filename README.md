@@ -1,124 +1,79 @@
-# [Developer Portfolio](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
+# Kalidasan Nediyamparambath - AI/ML Portfolio
 
-[![Screenshot](.github/preview.png)](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
+Personal portfolio website showcasing my AI/ML research projects, experience, and technical expertise.
 
-<h1 align="center">The Dev Portfolio That Gets You Hired</h1>
+Ì¥ó **Live Site**: [https://kalidasan-2001.github.io](https://kalidasan-2001.github.io)
 
-<p align="center">
-  <strong>Built for uni students, STEM grads, and software engineers.</strong><br/>
-  Showcase real projects, ship a clean blog, and stand out with a modern dark-first design ‚Äî without a fragile ‚Äúblack box‚Äù React app.
-</p>
+## About Me
 
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme"><b>üöÄ Deploy in 60s (Free)</b></a>
-  &nbsp;‚Ä¢&nbsp;
-  <a href="https://hugoblox.com/templates/?open=dev-portfolio&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
-  &nbsp;‚Ä¢&nbsp;
-  <a href="https://docs.hugoblox.com/guides/studio/">HugoBlox Studio (Visual Editor)</a>
-</p>
+I'm a Master's student in Information Technology at TH OWL, specializing in:
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Parameter-Efficient Fine-Tuning (PEFT)
+- DevOps & Cloud Architecture (Azure)
 
+Currently working as a Research Assistant at inIT ‚Äì Institute for Industrial Information Technology.
 
-<p align="center">
-  <b>‚ñ∂Ô∏é Watch 12s Preview</b>
-</p>
+## Featured Projects
 
-https://github.com/user-attachments/assets/a6b676c0-1c10-4734-a55f-68c6f72d1612
+### Ì¥ñ QLORAX
+Production-ready QLoRA fine-tuning suite with MLOps pipeline for efficient model customization.
 
-<p align="center">
-  <a href="https://discord.gg/z8wNYzb"><img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord"></a>
-  <a href="https://github.com/HugoBlox/kit"><img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20HugoBlox&style=social" alt="GitHub Stars"></a>
-  <a href="https://x.com/BuildLore"><img src="https://img.shields.io/twitter/follow/BuildLore?label=Follow&style=social" alt="Follow on X"></a>
-</p>
+### Ì≥ö inIT-RAG
+Knowledge base RAG system for Parkinson's disease assistant app with web crawler and vector database.
 
----
+### ‚ö° RAG Framework Comparison
+Benchmarking study comparing LangChain vs LlamaIndex performance and capabilities.
 
-## Why this template?
+### ÌæØ Sensor Fusion & Drift Detection
+Redundancy-aware sensor fusion implementation with Kalman filtering and anomaly detection.
 
-Most portfolios look the same ‚Äî and most ‚Äúquick‚Äù site builders produce slow sites you can‚Äôt maintain.
+### Ì≥ä Smart Analyzer
+Real-time sensor monitoring Streamlit application with z-score anomaly detection.
 
-- **‚ö° Fast by default**: Hugo + Tailwind 4 + Hugo Modules ‚Üí great Lighthouse scores without JS bloat.
-- **üß† AI-ready content**: Your projects and posts live in clean Markdown/YAML ‚Äî readable by humans and LLMs.
-- **üéØ Job-hunting optimized**: Projects, tech stack, experience timeline, and a blog layout that looks credible.
-- **üåô Dark-first (but light-mode supported)**: Looks premium in dark mode, still works perfectly in light mode.
-- **üß© Block-based**: Reorder/replace sections without rewriting templates.
+## Tech Stack
 
----
+**AI/ML**: PyTorch, Transformers, LangChain, LlamaIndex, Ollama  
+**Languages**: Python, SQL, Bash  
+**DevOps**: Docker, Git, CI/CD, Azure DevOps  
+**Cloud**: Azure (Functions, ML, Storage)  
+**Tools**: Streamlit, Flask, Jupyter
 
-## Who it‚Äôs for
+## Setup & Development
 
-- **Students & grads** applying to internships / MSc / PhD / junior roles
-- **STEM professionals** (research, data, ML, bio, engineering) showcasing projects and writing
-- **Software engineers** building a portfolio that feels modern in 2026
+This portfolio is built with [Hugo Blox](https://hugoblox.com/) developer template.
 
----
-
-## What you get (Free)
-
-- **Developer hero** with modern gradients + optional typewriter
-- **Filterable portfolio** (tags + smooth transitions)
-- **Tech stack** grid with icons
-- **Experience + education timeline**
-- **Blog section** (cards + featured images)
-- **Contact section** with social links + copy email
-
----
-
-## Get started (recommended)
-
-### Option 1 ‚Äî Online deployer (fastest)
-
-Deploy this template in ~60 seconds:
-
-- [Deploy in browser ‚Üí](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
-
-### Option 2 ‚Äî HugoBlox Studio (visual editor in VS Code)
-
-- [Studio guide ‚Üí](https://docs.hugoblox.com/guides/studio/?utm_source=github&utm_medium=readme)
-- [Studio AI automation plans (Free/Plus/Pro) ‚Üí](https://hugoblox.com/pricing/?utm_source=github&utm_medium=readme)
-
-### Option 3 ‚Äî HugoBlox CLI (developer workflow)
-
-Install:
+### Local Development
 
 ```bash
-npm install -g hugoblox@latest
+# Install dependencies
+pnpm install
+
+# Run development server
+hugo server
+
+# Build for production
+hugo
 ```
 
-Create a site:
+### Customization Guide
 
-```bash
-hugoblox create site --template dev-portfolio
-```
-
-[CLI docs ‚Üí](https://docs.hugoblox.com/start/cli/?utm_source=github&utm_medium=readme)
-
----
-
-## Customize in 10 minutes
-
-- **Your profile**: `data/authors/me.yaml`
+- **Profile info**: `data/authors/me.yaml`
 - **Homepage sections**: `content/_index.md`
-- **Projects**: `content/projects/<project>/index.md`
-- **Blog posts**: `content/blog/<post>/index.md`
-- **Theme + identity**: `config/_default/params.yaml`
+- **Projects**: `content/projects/*/index.md`
+- **Blog posts**: `content/blog/*/index.md`
+- **Site config**: `config/_default/hugo.yaml` and `params.yaml`
+
+## Profile Picture
+
+Replace `assets/media/authors/me.png` with your own photo (recommended: 400x400px, PNG or JPG).
+
+## Contact
+
+Ì≥ß Email: kalidasann2001@gmail.com  
+Ì≤º LinkedIn: [kalidasan-nediyamparambath-40b46b218](https://www.linkedin.com/in/kalidasan-nediyamparambath-40b46b218/)  
+Ì∞ô GitHub: [@kalidasan-2001](https://github.com/kalidasan-2001)
 
 ---
 
-## Want the Pro version? üíé
-
-If you want a version that feels meaningfully more premium (and helps fund open source + research):
-
-- [Premium template ‚Üí](https://hugoblox.com/templates/dev-portfolio-pro/start?utm_source=github&utm_medium=readme)
-- [HugoBlox Pro / Studio ‚Üí](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme)
-
----
-
-## Community & support
-
-- **Docs**: [docs.hugoblox.com ‚Üí](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme)
-- **Discord**: [Join Discord ‚Üí](https://discord.gg/z8wNYzb)
-- **Issues**: [Open an issue ‚Üí](https://github.com/HugoBlox/kit/issues)
-
----
-
-MIT ¬© 2016‚ÄìPresent [George Cushen](https://neuralgeo.com/?utm_source=github&utm_medium=readme)
+Built with [Hugo Blox](https://hugoblox.com/) ‚Ä¢ Deployed on GitHub Pages
