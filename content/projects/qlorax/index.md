@@ -9,7 +9,6 @@ tags:
   - MLOps
   - Python
 date: '2024-12-01'
-icon: sparkles
 external_link: 'https://github.com/kalidasan-2001/QLORAX'
 
 image:

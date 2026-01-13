@@ -8,7 +8,6 @@ tags:
   - Python
   - Data Science
 date: '2024-09-01'
-icon: crosshairs
 external_link: 'https://github.com/kalidasan-2001/redundancy-aware-sensor-fusion'
 
 links:
