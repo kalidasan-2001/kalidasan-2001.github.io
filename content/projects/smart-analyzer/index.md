@@ -8,6 +8,7 @@ tags:
   - Streamlit
   - Web Dev
 date: '2024-08-01'
+icon: chart-bar
 external_link: 'https://github.com/kalidasan-2001/smart-analyzer'
 
 links:

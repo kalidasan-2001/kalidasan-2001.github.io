@@ -9,6 +9,7 @@ tags:
   - Python
   - LlamaIndex
 date: '2025-11-01'
+icon: book-open
 external_link: 'https://github.com/kalidasan-2001/inIT-RAG'
 
 image:

@@ -9,6 +9,7 @@ tags:
   - Benchmarking
   - Python
 date: '2024-10-01'
+icon: bolt
 external_link: 'https://github.com/kalidasan-2001/RAG-Comparison-Benchmark'
 
 links:
