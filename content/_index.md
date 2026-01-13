@@ -22,10 +22,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "LLM-based AI systems"
+          - "RAG pipelines"
+          - "scalable ML workflows"
+          - "DevOps automation"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -60,18 +60,13 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: AI/ML
+          tag: AI/ML
+        - name: DevOps
+          tag: DevOps
+        - name: Web Dev
+          tag: Web Dev
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       background:
@@ -86,48 +81,48 @@ sections:
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Technologies I use to build AI systems"
       categories:
-        - name: Languages
+        - name: AI/ML
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
-          items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: TensorFlow
+              icon: devicon/tensorflow
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: LangChain
+              icon: academic/book-open
+        - name: DevOps & Cloud
           items:
             - name: Docker
               icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
+            - name: Azure
+              icon: devicon/azure
             - name: GitHub Actions
               icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Terraform
+              icon: devicon/terraform
+        - name: Development
+          items:
+            - name: Django
+              icon: devicon/django
+            - name: Java
+              icon: devicon/java
+            - name: C#
+              icon: devicon/csharp
+            - name: REST APIs
+              icon: academic/code
+        - name: Tools
+          items:
+            - name: Git
+              icon: devicon/git
+            - name: VS Code
+              icon: devicon/vscode
+            - name: Linux
+              icon: devicon/linux
+            - name: PostgreSQL
+              icon: devicon/postgresql
     design:
       style: grid
       show_levels: false
@@ -145,42 +140,31 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
+        - title: Research Assistant
+          company: inIT – Institute for Industrial Information Technology
+          company_url: 'https://www.init-owl.de'
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
+          location: Lemgo, Germany
+          date_start: '2025-11-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+            * Developed LLM-based conversational assistant for Parkinson's PD Assistant App
+            * Implemented RAG pipeline with preprocessing, embeddings, vector search, and context-aware retrieval
+            * Designed modular Python scripts for scalable, maintainable LLM workflows
+            * Research on hallucination reduction, evaluation metrics, and safety alignment
+            * Tech stack: Python, LLMs, RAG, Vector Databases, Prompt Engineering
+        - title: Virtual Intern – Machine Learning, AI & Deep Learning
+          company: Remote
           company_url: ''
           company_logo: ''
           location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          date_start: '2022-11-01'
+          date_end: '2023-02-28'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Built and trained CNN, ANN, and supervised models using Python and TensorFlow
+            * Developed automation-oriented ML projects with data preprocessing and training workflows
+            * Gained foundational understanding of AI-driven automation and computer vision pipelines
+            * Tech stack: Python, TensorFlow, CNN, ANN, Computer Vision
     design:
       columns: '1'
       background:
@@ -195,7 +179,7 @@ sections:
     id: blog
     content:
       title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
+      subtitle: 'Thoughts on AI, ML, and tech'
       text: ''
       filters:
         folders:
@@ -218,11 +202,11 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Let's collaborate on AI/ML projects"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        I'm always interested in hearing about new research opportunities and student positions.
+        Whether you're looking to collaborate, hire, or just want to connect, feel free to reach out!
+      email: kalidasann2001@gmail.com
       autolink: true
     design:
       columns: '1'
@@ -236,18 +220,17 @@ sections:
   # CTA Card
   - block: cta-card
     content:
-      title: "Open to Opportunities"
+      title: "Open to Student Roles & Research Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm actively seeking **student assistant positions**, **research opportunities**, and **internships** in AI/ML and DevOps.
         
-        Let's connect and discuss how I can help your team.
+        Let's connect and discuss how I can contribute to your team.
       button:
-        text: 'Download Resume'
-        url: uploads/resume.pdf
+        text: 'View GitHub'
+        url: https://github.com/kalidasan-2001
         new_tab: true
     design:
       card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
         css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
         text_color: dark
       background:

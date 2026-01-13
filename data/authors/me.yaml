@@ -2,99 +2,110 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Kalidasan Nediyamparambath
+  given: Kalidasan
+  family: Nediyamparambath
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "���"
+role: AI/ML Research Assistant specializing in LLMs & RAG
+email: kalidasann2001@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  I'm an Information Technology graduate student focused on LLM-based systems, DevOps automation, and Azure cloud environments. My work emphasizes building reliable, scalable AI pipelines with strong engineering discipline.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: inIT – Institute for Industrial Information Technology
+    url: https://www.init-owl.de
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:kalidasann2001@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/kalidasan-2001
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/kalidasan-nediyamparambath-40b46b218/
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Large Language Models
+  - Retrieval-Augmented Generation
+  - DevOps & Automation
+  - Cloud Architecture (Azure)
+  - AI Research
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: M.Sc. Information Technology
+    institution: Technische Hochschule Ostwestfalen-Lippe (TH OWL)
+    start: 2023-05-01
+    end: 2026-12-31
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      Focus on Large Language Models, PEFT (Parameter-Efficient Fine-Tuning), and Retrieval-Augmented Generation.
+      Strong emphasis on DevOps automation and Azure cloud environments.
+  - degree: B.Sc. Computer Science
+    institution: University of Calicut
+    start: 2019-09-01
+    end: 2022-06-30
+    summary: |
+      Foundation in computer science fundamentals, programming, and software engineering.
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Research Assistant
+    org: inIT – Institute for Industrial Information Technology
+    start: 2025-11-01
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Developed an LLM-based conversational assistant for the Parkinson's PD Assistant App to support medical and patient interactions.
+      Implemented a RAG pipeline including preprocessing, embeddings generation, vector search, and context-aware retrieval.
+      Designed modular Python scripts enabling scalable, maintainable, and testable LLM workflows.
+      Conducting research on hallucination reduction, response evaluation metrics, and safety alignment.
+      Collaborating with researchers to refine LLM behaviour through prompt engineering and iterative performance optimization.
+  - role: Virtual Intern – Machine Learning, AI & Deep Learning
+    org: Remote
+    start: 2022-11-01
+    end: 2023-02-28
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Built and trained CNN, ANN, and supervised models using Python and TensorFlow.
+      Worked on small automation-oriented ML projects involving data preprocessing, training workflows and performance evaluation.
+      Gained foundational understanding of AI-driven automation and computer vision pipelines.
 
 skills:
+  - name: AI/ML
+    items:
+      - label: Large Language Models
+        level: 5
+      - label: RAG (Retrieval-Augmented Generation)
+        level: 5
+      - label: PEFT & LoRA
+        level: 4
+      - label: TensorFlow
+        level: 4
+      - label: Prompt Engineering
+        level: 5
   - name: Development
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
       - label: Python
+        level: 5
+      - label: Django
         level: 4
-  - name: DevOps
+      - label: REST APIs
+        level: 4
+      - label: Java
+        level: 3
+      - label: C# / C
+        level: 3
+  - name: DevOps & Cloud
     items:
       - label: Docker
         level: 4
-      - label: AWS
+      - label: CI/CD (GitHub Actions)
         level: 4
-      - label: CI/CD
-        level: 5
+      - label: Terraform
+        level: 3
+      - label: Azure
+        level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
+    label: Fluent
 
 awards: []
